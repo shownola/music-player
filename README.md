@@ -8,4 +8,6 @@ Create a JavaScript music player with the ability to play, pause, forward, chang
 
 * setProgressBar check srcElement and find clientWidth, use this.clientWidth to set the width of the bar. Find offsetX to find where I clicked
 
+* Using textContent vs. inneText - textContent returns all elements including script and style elements. While innerText only shows 'human-readable' elements, it will not return text of hidden elements.
+
 * title= attribute where shows as tooltip in chrome doesn't work.  Fix: show tabindex="-1" on the parent element and it appears.
