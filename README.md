@@ -4,6 +4,8 @@ Create a JavaScript music player with the ability to play, pause, forward, chang
 
 * Audio/Video Methods, Attributes, etc. References Used: https://www.w3schools.com/tags/ref_av_dom.asp
 
-* ProgressBar check srcElement events for currentTime and duration 
+* ProgressBar check srcElement events for currentTime and duration
+
+* setProgressBar check srcElement and find clientWidth, use this.clientWidth to set the width of the bar. Find offsetX to find where I clicked
 
 * title= attribute where shows as tooltip in chrome doesn't work.  Fix: show tabindex="-1" on the parent element and it appears.
